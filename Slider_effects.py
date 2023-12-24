@@ -6,7 +6,7 @@ class Slider_effects(tk.Canvas):
     def __init__(self, master, length, initial_position=0):
         super().__init__(
             master, width=length, height=self.SLIDER_SIZE,
-            bg='#585050', bd=0, highlightthickness=0, highlightbackground='#585050'
+            bg='#B8B818', bd=0, highlightthickness=0, highlightbackground='#B8B818'
         )
         self.length = length
         self.slider = None

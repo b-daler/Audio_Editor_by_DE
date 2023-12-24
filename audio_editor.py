@@ -92,7 +92,7 @@ window.configure(bg="#585050")
 def open_instruction_window():
     instruction_window = Toplevel(window)
     instruction_window.title("INSTRUCTION")
-    instruction_window.geometry("800x150")  # Устанавливаем размер окна
+    instruction_window.geometry("800x200")  # Устанавливаем размер окна
 
     descriptions = [
         "Reverb:\nMIX - баланс между исходным и обработанным сигналом.\nDECAY - длительность эффекта.\nPLATE - плавный звук, ROOM - естественное эхо.",
