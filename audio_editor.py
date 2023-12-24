@@ -86,7 +86,7 @@ is_stop_image = True
 window = Tk()
 window.geometry("1300x700")
 window.title("DE_Studio")
-window.configure(bg="#B8B818")
+window.configure(bg="#585050")
 
 # Функция для открытия всплывающего окна
 def open_instruction_window():
@@ -367,7 +367,7 @@ def handle_volume_change(event, change):
 
 # Цвета для текста и фона кнопок по умолчанию
 default_text_color = "white"  # Цвет текста по умолчанию
-default_button_color = "#585050"  # Цвет фона кнопок по умолчанию
+default_button_color = "#B8B818"  # Цвет фона кнопок по умолчанию
 # Активные цвета для текста и фона кнопок
 active_text_color = "black"  # Цвет текста для активной кнопки
 active_button_color = "white"  # Цвет фона для активной кнопки
@@ -692,7 +692,7 @@ def boost_4500hz():
 
 canvas = Canvas(
     window,
-    bg="#B8B818",
+    bg="#585050",
     height=700,
     width=1300,
     bd=0,
