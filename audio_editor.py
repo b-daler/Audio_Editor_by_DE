@@ -86,7 +86,7 @@ is_stop_image = True
 window = Tk()
 window.geometry("1300x700")
 window.title("DE_Studio")
-window.configure(bg="#585050")
+window.configure(bg="#B8B818")
 
 # Функция для открытия всплывающего окна
 def open_instruction_window():
@@ -692,7 +692,7 @@ def boost_4500hz():
 
 canvas = Canvas(
     window,
-    bg="#585050",
+    bg="#B8B818",
     height=700,
     width=1300,
     bd=0,
